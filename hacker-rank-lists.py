@@ -11,7 +11,7 @@ if __name__ == '__main__':
 
         if backstage[0] == "print" :
             print(the_list)
-            i = i+1
+            i = i+1    #have repeated the same code
         else:
             if backstage[0] == "append":
                 the_list.append(backstage[1])
@@ -34,7 +34,8 @@ if __name__ == '__main__':
                                 i = i + 1
                             else:
                                 if backstage[0] == "insert":
-                                    the_list.insert(backstage[2] , backstage[1])
+                                    the_list.insert(backstage[2] , backstage[1]) 
+                                    #this is not working
                                     i = i + 1
                                     break
 
