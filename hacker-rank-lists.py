@@ -34,8 +34,9 @@ if __name__ == '__main__':
                                 i = i + 1
                             else:
                                 if backstage[0] == "insert":
-                                    the_list.insert(backstage[2] , backstage[1]) 
-                                    #this is not working
+                                    
+                                    the_list.insert(int(backstage[2]) , backstage[1]) 
+                                  
                                     i = i + 1
-                                    break
+                                   
 
