@@ -1,1 +1,1 @@
-# hacker-rank-lists
+# hacker-rank
