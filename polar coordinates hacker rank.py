@@ -4,8 +4,13 @@ import cmath
 
 s = input()
 l = list(s)
-x = int(l[0])
-y = int(l[2])
+if l[0] == "-":
+  x=int(l[1])
+  y = int(l[3])
+else:
+  
+  x = int(l[0])
+  y = int(l[2])
 
 
 print(abs(complex(x, y)))
