@@ -17,7 +17,7 @@ if __name__ == '__main__':
                 the_list.append(backstage[1])
                 i = i + 1
             else:
-                if backstage[0] == "sort":
+                if backstage[0] == "sort":     #sorting is not working correctly
 
                     the_list.sort()
                     i = i + 1
@@ -30,7 +30,7 @@ if __name__ == '__main__':
                             the_list.reverse()
                             i = i + 1
                         else:
-                            if backstage[0] == "remove":                #remove doesnt work
+                            if backstage[0] == "remove":                
                                 if backstage[1] in the_list:
                                     the_list.remove(backstage[1])
                                     i = i + 1
