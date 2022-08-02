@@ -17,7 +17,7 @@ if __name__ == '__main__':
                 the_list.append(backstage[1])
                 i = i + 1
             else:
-                if backstage[0] == "sort":     #sorting is not working correctly
+                if backstage[0] == "sort":     #sorting doesnt work properly for 'inserted' items
 
                     the_list.sort()
                     i = i + 1
