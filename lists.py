@@ -10,7 +10,7 @@ if __name__ == '__main__':
         # inserting the input into a list
 
         if backstage[0] == "print":
-            print([int(i) for i in the_list])
+            print(the_list)
             i = i + 1
         else:
             if backstage[0] == "append":
@@ -18,7 +18,7 @@ if __name__ == '__main__':
                 i = i + 1
             else:
                 if backstage[0] == "sort":
-                    the_list = [int(i) for i in the_list]
+
                     the_list.sort()
                     i = i + 1
                 else:
